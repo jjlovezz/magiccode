@@ -17,7 +17,7 @@ function Header() {
                     <div className='headerBlock'>
                         <Container className='headerContainer'>
                             <div className='he-title'>
-                                <h1>SIMIK starts new student enrollment for programming courses</h1>
+                                <h1>MagicCode Education starts new students enrollment for programming courses</h1>
                             </div>
                             <div className='he-description'>
                             <p>for kids aged 7 to 14 years</p>

@@ -66,7 +66,7 @@ function Methods() {
                         Development of curiosity
                         </div>
                         <div className='methodBoxText'>
-                        Each lesson in SIMIK is a fascinating story that develops curiosity and maintains interest in learning.
+                        Each lesson in MagicCode Education is a fascinating story that develops curiosity and maintains interest in learning.
                         </div>
                     </div>
                 </Col>

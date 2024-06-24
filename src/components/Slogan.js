@@ -10,7 +10,7 @@ function Slogan() {
                     <Row className='sloganBox'>
                         <Col xs={12} lg={6}>
                             <div  data-aos="fade-right" className='sloganText'>
-                                <h2 className='head-title-h2'>Simik doesn't just teach children how<span className='sloganTextspan'>to program</span></h2>
+                                <h2 className='head-title-h2'>MagicCode doesn't just teach children how<span className='sloganTextspan'>to program</span></h2>
                                 <p className='description-title-p'>Our goal is to prepare the child for any task, to teach him to apply this knowledge in practice, to interest him in his studies.</p>
                                 
                             </div>

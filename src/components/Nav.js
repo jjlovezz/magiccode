@@ -21,7 +21,7 @@ function Nav() {
             <div className='navBox'>
                 <div className='logoBox'>
                     <i className="fab fa-digital-ocean logo"></i>
-                    <div className='logoText'>Simik</div>
+                    <div className='logoText'>MagicCode Education</div>
                 </div>
                 <div className='navResponse' id='myTopnav' onClick={handleClick}>
                     <ul>

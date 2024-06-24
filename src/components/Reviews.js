@@ -56,7 +56,7 @@ function Reviews() {
                             
                             <div className='review'>
                                 <div className='review-text'>
-                                After the trial class, my daughter didn’t want to go home - she liked the class so much! I’m sure the teachers will strengthen her interest in programming and help her achieve academic success. Thanks SIMIK! 
+                                After the trial class, my daughter didn’t want to go home - she liked the class so much! I’m sure the teachers will strengthen her interest in programming and help her achieve academic success. Thanks MagicCode! 
                                 </div>
 
                                 <div className='reviewPerson'>

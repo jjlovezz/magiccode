@@ -20,7 +20,7 @@ function Footer() {
                         </div>
                     
                     <div className='footmail'>
-                        <a className="footLink" href="mailto:office@simik.com">office@simik.com 
+                        <a className="footLink" href="mailto:magic.code@outlook.com">magic.code@outlook.com 
                         </a>
                     </div>
                     
