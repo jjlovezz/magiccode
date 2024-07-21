@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import FreeLesson from './FreeLesson';
+import LanguageSwitcher from '../LanguageSwitcher';
 
 function Nav() {
     const [modalActive, setModalActive] = useState (false)
@@ -29,7 +30,7 @@ function Nav() {
                         <li><a href="#methods">Our methods</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
-
+                    <LanguageSwitcher />
                 <div className='btnHead'> 
                 <button className='smallBtn navBtn' onClick={() => setModalActive(true)}>Get free lesson</button></div>   
                 </div>

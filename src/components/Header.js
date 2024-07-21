@@ -2,9 +2,11 @@ import React, {useState} from 'react'
 import {Container} from 'react-bootstrap';
 import Nav from './Nav.js';
 import FreeLesson from './FreeLesson';
+import { useTranslation } from 'react-i18next';
+
 function Header() {
     const [modalActive, setModalActive] = useState (false)
-   
+    const { t } = useTranslation();
 
     return (
         <>
@@ -20,7 +22,7 @@ function Header() {
                                 <h1>MagicCode Education starts new students enrollment for programming courses</h1>
                             </div>
                             <div className='he-description'>
-                            <p>for kids aged 7 to 14 years</p>
+                            <p>{t('description')}</p>
                             </div>
                             <div className='he-button'>
                             <button className='bigBtn' onClick={() => setModalActive(true)}>Get free lesson</button>
