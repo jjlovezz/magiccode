@@ -14,14 +14,15 @@ function Footer() {
                     </div>
                     
                         <div className='footmail'>
-                            <a className="footLink" href="tel:+(0712)25753428">
-                                + (0712) 257 53 428 
-                            </a>
+                            <p className="footLink">
+                                Wechat: MagicCodeEdu
+                                <img src="./wechat.jpg" alt="Wechat Code" width="170px" height="170px"/>
+                            </p>
                         </div>
                     
                     <div className='footmail'>
-                        <a className="footLink" href="mailto:magic.code@outlook.com">magic.code@outlook.com 
-                        </a>
+                        <p>Email: <a className="footLink" href="mailto:magiccodeedu@outlook.com">magiccodeedu@outlook.com</a>
+                        </p>
                     </div>
                     
 
