@@ -13,8 +13,7 @@ function Home() {
         <Header/>
         <Courses/>
         <Slogan/>
-        <Methods/>
-        <Num/>
+        <Methods/>        
         <Reviews/>
         <Footer/>
 
