@@ -22,6 +22,7 @@ function Nav() {
             <div className='navBox'>
                 <div className='logoBox'>
                     <i className="fab fa-digital-ocean logo"></i>
+                    <img alt='logo' src='./logo.png' height='80px' width='80px'></img>
                     <div className='logoText'>MagicCode Education</div>
                 </div>
                 <div className='navResponse' id='myTopnav' onClick={handleClick}>

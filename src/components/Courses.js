@@ -50,11 +50,11 @@ function Courses() {
                                 </div>
                                 <div className='coureseCardContent'>
                                     <div className='CardHeader'>
-                                        Basics of programming
+                                        ScratchJr
                                     </div>
 
                                     <div className='CardText'>
-                                    Creating their own cartoons and computer games, children improve their logical and algorithmic thinking. It helps them towards their studies
+                                    Creating their own cartoons and computer games, children improve their logical and algorithmic thinking. It helps them towards their studies.
                                     </div>
 
                                     <div className='CardYears'>7 - 8 years</div>
@@ -69,30 +69,7 @@ function Courses() {
                             </div>
                            
                             </SwiperSlide>
-                            <SwiperSlide>
                             
-                            <div className='coureseCard'>
-                                <div className='coureseCardImg couresePython'>
-
-                                </div>
-                                <div className='coureseCardContent'>
-                                    <div className='CardHeader'>
-                                    Python
-                                    </div>
-                                    <div className='CardText'>
-                                    Learning Python, children will work out the basic concepts of algorithmics and programming. They will immerse themselves in the culture and specifics of the IT world
-                                    </div>
-                                    <div className='CardYears'>12 - 14 years</div>
-                                    <div className='CardButton'>
-                                        <Link to='/python'>
-                                            <Button  className='bigBtn'>Start course</Button>
-                                        </Link>
-                                    </div>
-                                </div>
-
-                            </div>
-                            
-                            </SwiperSlide>
                             <SwiperSlide>
                                 
                                 <div className='coureseCard'>
@@ -101,12 +78,12 @@ function Courses() {
                                 </div>
                                 <div className='coureseCardContent'>
                                     <div className='CardHeader'>
-                                    Scratch programming
+                                    Scratch
                                     </div>
                                     <div className='CardText'>
                                     By creating their own cartoons and computer games. A course in which your child will not just play games, but know how to develop them from scratch.
                                     </div>
-                                    <div className='CardYears'>10 - 11 years</div>
+                                    <div className='CardYears'>8 - 12 years</div>
 
                                     <div className='CardButton'>
                                         <Link to='/scratch'>
@@ -118,6 +95,32 @@ function Courses() {
                             </div>
                             
                             </SwiperSlide>
+                            
+                            <SwiperSlide>
+                            
+                            <div className='coureseCard'>
+                                <div className='coureseCardImg couresePython'>
+
+                                </div>
+                                <div className='coureseCardContent'>
+                                    <div className='CardHeader'>
+                                    Python
+                                    </div>
+                                    <div className='CardText'>
+                                    Learning Python, children will work out the basic concepts of algorithmics and programming. They will immerse themselves in the culture and specifics of the IT world.
+                                    </div>
+                                    <div className='CardYears'>10 - 14 years</div>
+                                    <div className='CardButton'>
+                                        <Link to='/python'>
+                                            <Button  className='bigBtn'>Start course</Button>
+                                        </Link>
+                                    </div>
+                                </div>
+
+                            </div>
+                            
+                            </SwiperSlide>
+
                             <SwiperSlide>
                                 
                                 <div className='coureseCard'>
@@ -126,12 +129,13 @@ function Courses() {
                                 </div>
                                 <div className='coureseCardContent'>
                                     <div className='CardHeader'>
-                                    Summer Coding Camp
+                                    Robotics
                                     </div>
                                     <div className='CardText'>
-                                    For two weeks in the summer we will teach children how to create websites and 3D-models, shoot video for a blog and create virtual worlds
+                                    {/*For two weeks in the summer we will teach children how to create websites and 3D-models, shoot video for a blog and create virtual worlds.*/}
+                                    Based on Micro:bit's robot series courses, learn various sensor principles and software-hardware collaborative programming.
                                     </div>
-                                    <div className='CardYears'>10 - 11 years</div>
+                                    <div className='CardYears'>8 - 12 years</div>
                                     <div className='CardButton'>
                                         <Link to='/summercamp'>
                                                 <Button  className='bigBtn'>Start course</Button>
