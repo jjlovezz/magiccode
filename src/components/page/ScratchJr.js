@@ -2,7 +2,7 @@ import React from 'react'
 import {Container, Row, Col } from 'react-bootstrap';
 import {Link} from 'react-router-dom'
 
-function Basic() {
+function ScratchJr() {
     return (
         <div className='about' >
             
@@ -14,7 +14,7 @@ function Basic() {
           
                 <Container className='CoursBoxContainer'>
                     <div >
-                        <h2 className='abCourseTitle'>Basics of programming</h2>
+                        <h2 className='abCourseTitle'>ScratchJr</h2>
                     </div>
                     <Row  className='abCourseUl'>
                             <Col md={7}>
@@ -125,4 +125,4 @@ function Basic() {
     )
 }
 
-export default Basic
+export default ScratchJr

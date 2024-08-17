@@ -1,7 +1,7 @@
 import {useEffect} from 'react'
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Basic from './components/page/Basic';
+import ScratchJr from './components/page/ScratchJr';
 import Python from './components/page/Python';
 import Scratch from './components/page/Scratch';
 import SummerCamp from './components/page/SummerCamp';
@@ -49,7 +49,7 @@ Aos.init ({duration: 2000})
         <ScrollToTop>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/basic" element={<Basic />} />
+            <Route path="/ScratchJr" element={<ScratchJr />} />
             <Route path="/python" element={<Python />} />
             <Route path="/scratch" element={<Scratch />} />
             <Route path="/summercamp" element={<SummerCamp />} />

@@ -180,14 +180,14 @@ a:hover {
   padding: 85px 0;
 } */
 
-.coureseCard {
+.coursesCard {
   background: #fff;
   color: #000;
   text-align: center;
   border-radius: 5px;
 
 }
-.coureseCardImg {
+.coursesCardImg {
   background-color: #322e31;
   min-height: 230px;
   
@@ -195,19 +195,19 @@ a:hover {
   border-radius: 5px 5px 0 0
 }
 
-.coureseBasic {
+.coursesScratchJr {
   background-image: url('./img/cours-pic1.png');
 }
-.couresePython {
+.coursesPython {
   background-image: url('./img/cours-pic3.png');
 }
-.coureseScratch {
+.coursesScratch {
   background-image: url('./img/cours-pic2.png');
 }
-.coureseSummer {
+.coursesSummer {
   background-image: url('./img/cours-pic4.png');
 }
-.coureseCardContent {
+.coursesCardContent {
   padding: 15px;
 }
 

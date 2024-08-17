@@ -44,11 +44,11 @@ function Courses() {
                             >
                             <SwiperSlide>
                             
-                            <div className='coureseCard'>
-                                <div className='coureseCardImg coureseBasic'>
+                            <div className='coursesCard'>
+                                <div className='coursesCardImg coursesScratchJr'>
 
                                 </div>
-                                <div className='coureseCardContent'>
+                                <div className='coursesCardContent'>
                                     <div className='CardHeader'>
                                         ScratchJr
                                     </div>
@@ -60,7 +60,7 @@ function Courses() {
                                     <div className='CardYears'>7 - 8 years</div>
 
                                     <div className='CardButton'>
-                                        <Link to='/basic'>
+                                        <Link to='/scratchjr'>
                                             <Button className='bigBtn'>Start course</Button>
                                         </Link>
                                     </div>
@@ -72,11 +72,11 @@ function Courses() {
                             
                             <SwiperSlide>
                                 
-                                <div className='coureseCard'>
-                                <div className='coureseCardImg coureseScratch'>
+                                <div className='coursesCard'>
+                                <div className='coursesCardImg coursesScratch'>
 
                                 </div>
-                                <div className='coureseCardContent'>
+                                <div className='coursesCardContent'>
                                     <div className='CardHeader'>
                                     Scratch
                                     </div>
@@ -98,11 +98,11 @@ function Courses() {
                             
                             <SwiperSlide>
                             
-                            <div className='coureseCard'>
-                                <div className='coureseCardImg couresePython'>
+                            <div className='coursesCard'>
+                                <div className='coursesCardImg coursesPython'>
 
                                 </div>
-                                <div className='coureseCardContent'>
+                                <div className='coursesCardContent'>
                                     <div className='CardHeader'>
                                     Python
                                     </div>
@@ -123,11 +123,11 @@ function Courses() {
 
                             <SwiperSlide>
                                 
-                                <div className='coureseCard'>
-                                <div className='coureseCardImg coureseSummer'>
+                                <div className='coursesCard'>
+                                <div className='coursesCardImg coursesSummer'>
 
                                 </div>
-                                <div className='coureseCardContent'>
+                                <div className='coursesCardContent'>
                                     <div className='CardHeader'>
                                     Robotics
                                     </div>
@@ -135,7 +135,7 @@ function Courses() {
                                     {/*For two weeks in the summer we will teach children how to create websites and 3D-models, shoot video for a blog and create virtual worlds.*/}
                                     Based on Micro:bit's robot series courses, learn various sensor principles and software-hardware collaborative programming.
                                     </div>
-                                    <div className='CardYears'>8 - 12 years</div>
+                                    <div className='CardYears'>8 - 14 years</div>
                                     <div className='CardButton'>
                                         <Link to='/summercamp'>
                                                 <Button  className='bigBtn'>Start course</Button>
