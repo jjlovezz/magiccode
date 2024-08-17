@@ -1,4 +1,8 @@
 {
-    "description" : "for kids aged 7 to 14 years",
-    "descriptionbig" : "Welcome to MagicCode and enjoy code magic! Coding Class Enrollment is now open!"
+    "welcome_age" : "for kids aged 5 to 15 years",
+    "welcome" : "Welcome to MagicCode and enjoy code magic! Coding Class Enrollment is now open!",
+    "scratchjr_intro" : "With ScratchJr, young children can program their own interactive stories and games. In the process, they learn to solve problems, design projects, and express themselves creatively on the computer.",
+    "scratch_intro": "Scratch is a visual programming language that enables children to create digital stories, games, and animations. Scratch promotes logical and computational thinking, problem solving skills and creativity.",
+    "python_intro": "Python is the ideal syntax-based programming language for children to learn. It helps them grasp the basic concepts of algorithmics and programming, while immersing them in the culture and specifics of the IT world.",
+    "robotics_intro":"The micro:bit-based robotics programming courses focus on learning the principles of various sensors and methods of hardware-software collaborative programming, perfectly embodying the STEM education philosophy."
 }

@@ -19,10 +19,10 @@ function Header() {
                     <div className='headerBlock'>
                         <Container className='headerContainer'>
                             <div className='he-title'>
-                                <h1>{t('descriptionbig')}</h1>
+                                <h1>{t('welcome')}</h1>
                             </div>
                             <div className='he-description'>
-                            <p>{t('description')}</p>
+                            <p>{t('welcome_age')}</p>
                             </div>
                             <div className='he-button'>
                             <button className='bigBtn' onClick={() => setModalActive(true)}>Get free lesson</button>
