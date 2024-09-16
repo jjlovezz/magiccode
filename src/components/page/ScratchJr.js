@@ -23,22 +23,21 @@ function ScratchJr() {
                                         About the course
                                     </div>
                                     <p className='description-title-p'>
-                                        Visual programming develops children's imagination and teaches them to set tasks correctly and look for opportunities to solve them in a playful way.
-                                        In addition to working at the computer, children draw, count, invent and design in groups, make presentations.
-                                        At the end of the course, children create their own project — a game, a cartoon or an interactive book.
+                                        With ScratchJr, young children can program their own interactive stories and games. 
+                                        In the process, they learn to solve problems, design projects, and express themselves creatively on the computer.
                                     </p>
                                 </div>
                             </Col>
                             <Col md={{span: 4, offset: 1}}>
                                
                                 <Col xs={12} className='abNum'>
-                                    7-8 years old
+                                    5-7 years old
                                 </Col>
                                 <Col xs={12} className='abNum'>
-                                    8-10 kids in each group
+                                    6 kids in each class
                                 </Col>
                                 <Col xs={12} className='abNum'>
-                                    1 class per week
+                                    1 lesson per week
                                 </Col>
        
                             </Col>
@@ -53,7 +52,7 @@ function ScratchJr() {
                                         <i className="fas fa-child num-Icon"></i>
                                     </div>
                                     <div className='abNumlessonText' >
-                                        think logically
+                                        Programming with ScratchJr
                                     </div>
 
                                     </div>
@@ -64,7 +63,7 @@ function ScratchJr() {
                                         <i className="fas fa-child num-Icon"></i>
                                     </div>
                                     <div className='abNumlessonText' >
-                                        programming in Scratch
+                                        Create cartoons and games
                                     </div>
                                     
                                 </div>
@@ -75,7 +74,7 @@ function ScratchJr() {
                                         <i className="fas fa-child num-Icon"></i>
                                     </div>
                                     <div className='abNumlessonText' >
-                                        create cartoons and online games
+                                        Apply the basic concepts of programming and algorithmics
                                     </div>
                                     
                                 </div>
@@ -86,7 +85,7 @@ function ScratchJr() {
                                         <i className="fas fa-child num-Icon"></i>
                                     </div>
                                     <div className='abNumlessonText' >
-                                        work in team
+                                        Work in team
                                     </div>
                                     
                                 </div>
@@ -97,7 +96,7 @@ function ScratchJr() {
                                         <i className="fas fa-child num-Icon"></i>
                                     </div>
                                     <div className='abNumlessonText' >
-                                        think over the algorithm of creating their own projects
+                                        Design creatively
                                     </div>
 
                                 </div>
@@ -108,7 +107,7 @@ function ScratchJr() {
                                         <i className="fas fa-child num-Icon"></i>
                                     </div>
                                     <div className='abNumlessonText' >
-                                        apply the basic concepts of programming and algorithmics
+                                        Think logically
                                     </div>
 
                                 </div>

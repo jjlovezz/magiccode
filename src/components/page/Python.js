@@ -15,7 +15,7 @@ function Python() {
       
             <Container className='CoursBoxContainer'>
                 <div >
-                    <h2 className='abCourseTitle'>Python.Start</h2>
+                    <h2 className='abCourseTitle'>Python</h2>
                 </div>
                 <Row  className='abCourseUl'>
                         <Col md={7}>
@@ -24,22 +24,24 @@ function Python() {
                                     About the course
                                 </div>
                                 <p className='description-title-p'>
-                                    Visual programming develops children's imagination and teaches them to set tasks correctly and look for opportunities to solve them in a playful way.
-                                    In addition to working at the computer, children draw, count, invent and design in groups, make presentations.
-                                    At the end of the course, children create their own project — a game, a cartoon or an interactive book.
+                                    Python is the ideal syntax-based programming language for children to learn. 
+                                    It helps them grasp the basic concepts of algorithmics and programming, 
+                                    while immersing them in the culture and specifics of the IT world.
+                                    Children will learn programming fundamentals as well as the Turtle, Tkinter and Pygame libraries, 
+                                    and can create catoons, GUIs, and games with Python.
                                 </p>
                             </div>
                         </Col>
                         <Col md={{span: 4, offset: 1}}>
                            
                             <Col xs={12} className='abNum'>
-                                12-14 years old
+                                10-15 years old
                             </Col>
                             <Col xs={12} className='abNum'>
-                                8-10 kids in each group
+                                6 kids in each class
                             </Col>
                             <Col xs={12} className='abNum'>
-                                1 class per week
+                                1 lesson per week
                             </Col>
    
                         </Col>
@@ -54,7 +56,7 @@ function Python() {
                                     <i className="fas fa-child num-Icon"></i>
                                 </div>
                                 <div className='abNumlessonText' >
-                                    think logically
+                                    Programming with Python
                                 </div>
 
                                 </div>
@@ -65,7 +67,7 @@ function Python() {
                                     <i className="fas fa-child num-Icon"></i>
                                 </div>
                                 <div className='abNumlessonText' >
-                                    write code in Python
+                                    Learn programming fundamentals
                                 </div>
                                 
                             </div>
@@ -76,7 +78,7 @@ function Python() {
                                     <i className="fas fa-child num-Icon"></i>
                                 </div>
                                 <div className='abNumlessonText' >
-                                    create cartoons and online games
+                                    Learn Turtle/Tkinter/PygameS
                                 </div>
                                 
                             </div>
@@ -87,7 +89,7 @@ function Python() {
                                     <i className="fas fa-child num-Icon"></i>
                                 </div>
                                 <div className='abNumlessonText' >
-                                    work in team
+                                    Design algorithms
                                 </div>
                                 
                             </div>
@@ -98,7 +100,7 @@ function Python() {
                                     <i className="fas fa-child num-Icon"></i>
                                 </div>
                                 <div className='abNumlessonText' >
-                                    think over the algorithm of creating their own projects
+                                    Enhance logical thinking
                                 </div>
 
                             </div>
@@ -109,7 +111,7 @@ function Python() {
                                     <i className="fas fa-child num-Icon"></i>
                                 </div>
                                 <div className='abNumlessonText' >
-                                    apply the basic concepts of programming and algorithmics
+                                    Improve innovation capacity
                                 </div>
 
                             </div>

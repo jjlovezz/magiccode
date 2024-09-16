@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import ScratchJr from './components/page/ScratchJr';
 import Python from './components/page/Python';
 import Scratch from './components/page/Scratch';
-import SummerCamp from './components/page/SummerCamp';
+import Robotics from './components/page/Robotics';
 import ScrollToTop from './components/ScrollToTop';
 import Home from './components/Home';
 import Aos from 'aos';
@@ -49,10 +49,10 @@ Aos.init ({duration: 2000})
         <ScrollToTop>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/ScratchJr" element={<ScratchJr />} />
+            <Route path="/scratchjr" element={<ScratchJr />} />
             <Route path="/python" element={<Python />} />
             <Route path="/scratch" element={<Scratch />} />
-            <Route path="/summercamp" element={<SummerCamp />} />
+            <Route path="/robotics" element={<Robotics />} />
           </Routes>
         </ScrollToTop>
       </Router>

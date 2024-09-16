@@ -137,7 +137,7 @@ function Courses() {
                                         </div>
                                         <div className='CardYears'>8 - 15 years</div>
                                         <div className='CardButton'>
-                                            <Link to='/summercamp'>
+                                            <Link to='/robotics'>
                                                 <Button className='bigBtn'>Start course</Button>
                                             </Link>
                                         </div>

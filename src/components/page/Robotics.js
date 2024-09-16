@@ -3,7 +3,7 @@ import React from 'react'
 import {Container, Row, Col } from 'react-bootstrap';
 import {Link} from 'react-router-dom'
 
-function SummerCamp() {
+function Robotics() {
     return (
         <>
         <div className='about'>
@@ -16,7 +16,7 @@ function SummerCamp() {
       
             <Container className='CoursBoxContainer'>
                 <div >
-                    <h2 className='abCourseTitle'>3.Summer Coding Camp</h2>
+                    <h2 className='abCourseTitle'>Robotics</h2>
                 </div>
                 <Row  className='abCourseUl'>
                         <Col md={7}>
@@ -25,20 +25,25 @@ function SummerCamp() {
                                     About the course
                                 </div>
                                 <p className='description-title-p'>
-                                During two weeks in summer we will teach children how to create websites and 3D-models, shoot video for a blog and create virtual worlds, and also tell everything about safe behavior on the Internet.
+                                    The BBC micro:bit is an award-winning programmable device 
+                                    that allows students to get hands-on with coding and digital making. 
+                                    During school holidays, we will teach children the micro:bit-based robotics programming courses.
+                                    These courses focus on learning the principles of various sensors 
+                                    and methods of hardware-software collaborative programming, 
+                                    perfectly embodying the STEM education philosophy. 
                                 </p>
                             </div>
                         </Col>
                         <Col md={{span: 4, offset: 1}}>
                            
                             <Col xs={12} className='abNum'>
-                                7-14 years old
+                                8-15 years old
                             </Col>
                             <Col xs={12} className='abNum'>
-                                up to 12 kids and 2 adults in each group
+                                6 kids in each class
                             </Col>
                             <Col xs={12} className='abNum'>
-                                two-week shifts on weekdays from 9 a.m. to 6 p.m.
+                                3-day shifts and 3 hours per day
                             </Col>
    
                         </Col>
@@ -53,7 +58,7 @@ function SummerCamp() {
                                     <i className="fas fa-child num-Icon"></i>
                                 </div>
                                 <div className='abNumlessonText' >
-                                    create virtual worlds projects in GDevelop
+                                    Electronic circuit programming
                                 </div>
 
                                 </div>
@@ -64,7 +69,7 @@ function SummerCamp() {
                                     <i className="fas fa-child num-Icon"></i>
                                 </div>
                                 <div className='abNumlessonText' >
-                                    draw 3D models in Tinkercad
+                                    Building block robot programming
                                 </div>
                                 
                             </div>
@@ -75,7 +80,7 @@ function SummerCamp() {
                                     <i className="fas fa-child num-Icon"></i>
                                 </div>
                                 <div className='abNumlessonText' >
-                                    develop websites on their own
+                                    Robot car programming
                                 </div>
                                 
                             </div>
@@ -86,7 +91,7 @@ function SummerCamp() {
                                     <i className="fas fa-child num-Icon"></i>
                                 </div>
                                 <div className='abNumlessonText' >
-                                    shoot and edit qualitative videos with special effects
+                                    Recognise the power of technology in the real world
                                 </div>
                                 
                             </div>
@@ -97,7 +102,7 @@ function SummerCamp() {
                                     <i className="fas fa-child num-Icon"></i>
                                 </div>
                                 <div className='abNumlessonText' >
-                                    think over the algorithm of creating their own projects
+                                    Think over the algorithm of creating their own projects
                                 </div>
 
                             </div>
@@ -108,7 +113,7 @@ function SummerCamp() {
                                     <i className="fas fa-child num-Icon"></i>
                                 </div>
                                 <div className='abNumlessonText' >
-                                    present their work and speak publicly
+                                    Present their work and speak publicly
                                 </div>
 
                             </div>
@@ -125,4 +130,4 @@ function SummerCamp() {
     )
 }
 
-export default SummerCamp
+export default Robotics 
