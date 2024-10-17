@@ -1,8 +1,9 @@
 import React from 'react'
 import {Form } from 'react-bootstrap';
+import axios from 'axios'
 
 function FreeLesson(props) {
-    const newLesson = (e) => {
+    const newLesson = async (e) => {
         e.preventDefault()
         const name = e.target.elements.name.value
         const phone = e.target.elements.phone.value
@@ -10,8 +11,18 @@ function FreeLesson(props) {
         const email = e.target.elements.email.value
 
 
-        if (!email || !city  || !name || !phone ) {alert ('Please fill out the form')}
-        else {console.log (email, city, name, phone)}
+        if (!email || !city  || !name || !phone ) {
+            alert ('Please fill out the form')
+        }
+        else {
+            console.log (email, city, name, phone)
+            try {
+                await axios.post('/freelesson', { name, phone, city, email });
+                alert('Free lesson request submitted');
+            } catch (err) {
+                alert('Server error');
+            }
+        }
         
     }
     return (
