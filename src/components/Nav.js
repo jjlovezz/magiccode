@@ -48,7 +48,9 @@ function Nav() {
                 </div>
             </div>
             <FreeLesson active={modalActive} setActive={setModalActive}/>
-            <Login active={modalActive} setActive={setModalActive}/>
+            {
+                //<Login active={modalActive} setActive={setModalActive}/>
+            }
 
         </>
     )
