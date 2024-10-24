@@ -249,6 +249,18 @@ a:hover {
 .bigBtn:hover {
   background-color: #6741fa;
 }
+.normalBtn {
+  font-size: 1rem;
+  border-radius: 5px;
+  background-color: #7856ff;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  border: 5px;
+  margin: 0 1px;
+}
+.normalBtn:hover{
+  background-color: #6741fa;
+}
 
 .swiper-container {
   width: 480px;

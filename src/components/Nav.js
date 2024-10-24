@@ -38,17 +38,18 @@ function Nav() {
                     //<div className='btnHead'>
                     //    <button className='smallBtn navBtn' onClick={() => setModalActive(true)}>Sign in</button>
                     //</div>
+
+                    //<div className='btnHead'>
+                    //    <button className='smallBtn navBtn' onClick={() => setModalActive(true)}>Get free lesson</button>
+                    //</div>
                     }
-                    <div className='btnHead'>
-                        <button className='smallBtn navBtn' onClick={() => setModalActive(true)}>Get free lesson</button>
-                    </div>
                 </div>
                 <div className='burger' onClick={handleClick}>
                     <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                 </div>
             </div>
-            <FreeLesson active={modalActive} setActive={setModalActive}/>
             {
+                //<FreeLesson active={modalActive} setActive={setModalActive}/>
                 //<Login active={modalActive} setActive={setModalActive}/>
             }
 

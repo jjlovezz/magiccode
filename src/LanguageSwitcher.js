@@ -9,8 +9,8 @@ function LanguageSwitcher() {
 
   return (
     <div>
-      <button onClick={() => handleLanguageChange('en')}>English</button>
-      <button onClick={() => handleLanguageChange('zh')}>中文</button>
+      <button className='normalBtn' onClick={() => handleLanguageChange('en')}>English</button>
+      <button className='normalBtn' onClick={() => handleLanguageChange('zh')}>中文</button>
     </div>
   );
 }
