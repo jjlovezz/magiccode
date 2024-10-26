@@ -257,6 +257,7 @@ a:hover {
   color: rgb(255, 255, 255);
   border: 5px;
   margin: 0 1px;
+  width: 60px;
 }
 .normalBtn:hover{
   background-color: #6741fa;

@@ -32,7 +32,6 @@ function Nav() {
                         <li><a href="#methods">Our methods</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
-                    <LanguageSwitcher />
 
                     {
                     //<div className='btnHead'>
@@ -44,6 +43,7 @@ function Nav() {
                     //</div>
                     }
                 </div>
+                <LanguageSwitcher />
                 <div className='burger' onClick={handleClick}>
                     <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                 </div>
