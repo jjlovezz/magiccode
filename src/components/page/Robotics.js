@@ -16,7 +16,7 @@ function Robotics() {
       
             <Container className='CoursBoxContainer'>
                 <div >
-                    <h2 className='abCourseTitle'>Robotics</h2>
+                    <h2 className='abCourseTitle'>Robotics <img alt='robotics logo' src='./logo_robotics.png' width="80" height="80"></img></h2>
                 </div>
                 <Row  className='abCourseUl'>
                         <Col md={7}>

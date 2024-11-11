@@ -196,16 +196,16 @@ a:hover {
 }
 
 .coursesScratchJr {
-  background-image: url('./img/cours-pic1.png');
-}
-.coursesPython {
-  background-image: url('./img/cours-pic3.png');
+  background-image: url('./img/bgpic_scratchjr.png');
 }
 .coursesScratch {
-  background-image: url('./img/cours-pic2.png');
+  background-image: url('./img/bgpic_scratch.png');
 }
-.coursesSummer {
-  background-image: url('./img/cours-pic4.png');
+.coursesPython {
+  background-image: url('./img/bgpic_python.png');
+}
+.coursesRobotics {
+  background-image: url('./img/bgpic_robotics.png');
 }
 .coursesCardContent {
   padding: 15px;

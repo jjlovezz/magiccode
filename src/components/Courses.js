@@ -49,6 +49,9 @@ function Courses() {
 
                                     </div>
                                     <div className='coursesCardContent'>
+                                        <div>
+                                            <img alt='ScratchJr logo' src='./logo_scratchjr.png' width="80" height="80"></img>
+                                        </div>
                                         <div className='CardHeader'>
                                             ScratchJr
                                         </div>
@@ -77,6 +80,9 @@ function Courses() {
 
                                     </div>
                                     <div className='coursesCardContent'>
+                                        <div>
+                                            <img alt='Scratch logo' src='./logo_scratch.png' width="80" height="80"></img>
+                                        </div>
                                         <div className='CardHeader'>
                                             Scratch
                                         </div>
@@ -103,6 +109,9 @@ function Courses() {
 
                                     </div>
                                     <div className='coursesCardContent'>
+                                        <div>
+                                            <img alt='Python logo' src='./logo_python.png' width="80" height="80"></img>
+                                        </div>
                                         <div className='CardHeader'>
                                             Python
                                         </div>
@@ -124,10 +133,13 @@ function Courses() {
                             <SwiperSlide>
 
                                 <div className='coursesCard'>
-                                    <div className='coursesCardImg coursesSummer'>
+                                    <div className='coursesCardImg coursesRobotics'>
 
                                     </div>
                                     <div className='coursesCardContent'>
+                                        <div>
+                                            <img alt='Robotics logo' src='./logo_robotics.png' width="80" height="80"></img>
+                                        </div>
                                         <div className='CardHeader'>
                                             Robotics
                                         </div>

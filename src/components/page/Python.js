@@ -15,7 +15,7 @@ function Python() {
       
             <Container className='CoursBoxContainer'>
                 <div >
-                    <h2 className='abCourseTitle'>Python</h2>
+                    <h2 className='abCourseTitle'>Python <img alt='Python logo' src='./logo_python.png' width="80" height="80"></img></h2>
                 </div>
                 <Row  className='abCourseUl'>
                         <Col md={7}>

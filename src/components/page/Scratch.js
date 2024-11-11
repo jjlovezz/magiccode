@@ -15,7 +15,7 @@ function Scratch() {
       
             <Container className='CoursBoxContainer'>
                 <div >
-                    <h2 className='abCourseTitle'>Scratch</h2>
+                    <h2 className='abCourseTitle'>Scratch <img alt='Scratch logo' src='./logo_scratch.png' width="80" height="80"></img></h2>
                 </div>
                 <Row  className='abCourseUl'>
                         <Col md={7}>
