@@ -35,13 +35,23 @@ function Python() {
                         <Col md={{span: 4, offset: 1}}>
                            
                             <Col xs={12} className='abNum'>
-                                10-15 years old
+                                Ages: 10-15 years old
                             </Col>
                             <Col xs={12} className='abNum'>
-                                6 kids in each class
+                                Prices:
+                                    <ul>
+                                        <li>- Small group class for 4-6 kids: A$30/lesson</li>
+                                        <li>- one-on-two: A$50/lesson</li>
+                                        <li>- one-on-one: A$80/lesson</li>
+                                    </ul>
                             </Col>
                             <Col xs={12} className='abNum'>
-                                1 lesson per week
+                                Time:
+                                    <ul>
+                                        <li>- 1 hour per lesson</li>
+                                        <li>- 1 lesson per week</li>
+                                        <li>- 10 lessons per term</li>
+                                    </ul>
                             </Col>
    
                         </Col>

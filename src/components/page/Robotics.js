@@ -37,13 +37,22 @@ function Robotics() {
                         <Col md={{span: 4, offset: 1}}>
                            
                             <Col xs={12} className='abNum'>
-                                8-15 years old
+                                Ages: 8-15 years old
                             </Col>
                             <Col xs={12} className='abNum'>
-                                6 kids in each class
+                                Prices:
+                                    <ul>
+                                        <li>- Small group class for 4-6 kids: A$270</li>
+                                        <li>- Early bird price:10% off</li>
+                                    </ul>
                             </Col>
                             <Col xs={12} className='abNum'>
-                                3-day shifts and 3 hours per day
+                                Time:
+                                    <ul>
+                                        <li>- 3 hours per day</li>
+                                        <li>- 3 consecutive days</li>
+                                        <li>- During school holidays</li>
+                                    </ul>
                             </Col>
    
                         </Col>
