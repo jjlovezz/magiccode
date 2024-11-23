@@ -5,6 +5,7 @@ import ScratchJr from './components/page/ScratchJr';
 import Python from './components/page/Python';
 import Scratch from './components/page/Scratch';
 import Robotics from './components/page/Robotics';
+import AI from './components/page/AI';
 import ScrollToTop from './components/ScrollToTop';
 import Home from './components/Home';
 import Aos from 'aos';
@@ -53,6 +54,7 @@ Aos.init ({duration: 2000})
             <Route path="/python" element={<Python />} />
             <Route path="/scratch" element={<Scratch />} />
             <Route path="/robotics" element={<Robotics />} />
+            <Route path="/ai" element={<AI />} />
           </Routes>
         </ScrollToTop>
       </Router>

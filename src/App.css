@@ -207,6 +207,9 @@ a:hover {
 .coursesRobotics {
   background-image: url('./img/bgpic_robotics.png');
 }
+.coursesAI {
+  background-image: url('./img/bgpic_ai.jpg');
+}
 .coursesCardContent {
   padding: 15px;
 }

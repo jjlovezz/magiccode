@@ -159,6 +159,33 @@ function Courses() {
 
                             </SwiperSlide>
 
+                            <SwiperSlide>
+                                <div className='coursesCard'>
+                                    <div className='coursesCardImg coursesAI'>
+
+                                    </div>
+                                    <div className='coursesCardContent'>
+                                        <div>
+                                            <img alt='AI logo' src='./logo_ai.png' width="80" height="80"></img>
+                                        </div>
+                                        <div className='CardHeader'>
+                                            AI
+                                        </div>
+                                        <div className='CardText'>
+                                            {/*For two weeks in the summer we will teach children how to create websites and 3D-models, shoot video for a blog and create virtual worlds.*/}
+                                            {t('ai_intro')}
+                                        </div>
+                                        <div className='CardYears'>10 - 15 years</div>
+                                        <div className='CardButton'>
+                                            <Link to='/ai'>
+                                                <Button className='bigBtn'>Start course</Button>
+                                            </Link>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </SwiperSlide>
 
                         </Swiper>
 

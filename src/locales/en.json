@@ -4,5 +4,6 @@
     "scratchjr_intro" : "With ScratchJr, young children can program their own interactive stories and games. In the process, they learn to solve problems, design projects, and express themselves creatively on the computer.",
     "scratch_intro": "Scratch is a visual programming language that enables children to create digital stories, games, and animations. Scratch promotes logical and computational thinking, problem solving skills and creativity.",
     "python_intro": "Python is the ideal syntax-based programming language for children to learn. It helps them grasp the basic concepts of algorithmics and programming, while immersing them in the culture and specifics of the IT world.",
-    "robotics_intro":"The micro:bit-based robotics programming courses focus on learning the principles of various sensors and methods of hardware-software collaborative programming, perfectly embodying the STEM education philosophy."
+    "robotics_intro":"The micro:bit-based robotics programming courses focus on learning the principles of various sensors and methods of hardware-software collaborative programming, perfectly embodying the STEM education philosophy.",
+    "ai_intro":"Focusing on popular research areas in artificial intelligence, students will learn basic knowledge and project development such as face recognition, object recognition, pose recognition, speech recognition, ChatGPT, etc."
 }
