@@ -17,7 +17,7 @@ function AI() {
 
                 <Container className='CoursBoxContainer'>
                     <div >
-                        <h2 className='abCourseTitle'>Robotics <img alt='ai logo' src='./logo_ai.png' width="80" height="80"></img></h2>
+                        <h2 className='abCourseTitle'>AI <img alt='ai logo' src='./logo_ai.png' width="80" height="80"></img></h2>
                     </div>
                     <Row className='abCourseUl'>
                         <Col md={7}>

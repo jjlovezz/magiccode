@@ -40,7 +40,7 @@ function Reviews() {
 
                                 <div className='review'>
                                     <div className='review-text'>
-                                        My daughters had an amazing experience with this coding class! The teacher Maggie is knowledgeable, patient, and making learning complex concepts so easy to understand. The lessons are well-structured, and the hands-on projects really helped the girls solidify what they are learning. They came into the class with zero experience, and now they are confident in the coding abilities. Whether you're a beginner or looking to enhance your skills, MagicCode Education is perfect. Highly recommend to anyone interested in coding!
+                                        My daughters had an amazing experience with this coding class! The teacher Maggie is knowledgeable, patient, and making learning complex concepts so easy to understand. The lessons are well-structured, and the hands-on projects really helped the girls solidify what they are learning. They came into the class with zero experience, and now they are confident in the coding abilities. Highly recommend to anyone interested in coding!
                                     </div>
 
                                     <div className='reviewPerson'>
